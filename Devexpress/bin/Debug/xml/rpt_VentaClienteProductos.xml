@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="VentaClienteProductos">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_venta_producto" type="xs:int" minOccurs="0" />
+                <xs:element name="id_venta" type="xs:int" minOccurs="0" />
+                <xs:element name="id_empaque" type="xs:int" minOccurs="0" />
+                <xs:element name="id_producto" type="xs:int" minOccurs="0" />
+                <xs:element name="id_termino" type="xs:int" minOccurs="0" />
+                <xs:element name="cantidad" type="xs:int" minOccurs="0" />
+                <xs:element name="precio" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_vendedor" type="xs:int" minOccurs="0" />
+                <xs:element name="id_cliente" type="xs:int" minOccurs="0" />
+                <xs:element name="fecha_pedido" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="id_status" type="xs:string" minOccurs="0" />
+                <xs:element name="cliente" type="xs:string" minOccurs="0" />
+                <xs:element name="vendedor" type="xs:string" minOccurs="0" />
+                <xs:element name="producto" type="xs:string" minOccurs="0" />
+                <xs:element name="empaque" type="xs:string" minOccurs="0" />
+                <xs:element name="termino" type="xs:string" minOccurs="0" />
+                <xs:element name="comentarios" type="xs:string" minOccurs="0" />
+                <xs:element name="consec" type="xs:int" minOccurs="0" />
+                <xs:element name="fecha" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <VentaClienteProductos>
+    <id_venta_producto>1038</id_venta_producto>
+    <id_venta>779</id_venta>
+    <id_empaque>6</id_empaque>
+    <id_producto>16</id_producto>
+    <id_termino>0</id_termino>
+    <cantidad>50</cantidad>
+    <precio>11.00</precio>
+    <id_cliente>17</id_cliente>
+    <cliente>ANA ZACARIAS HERNANDEZ</cliente>
+    <producto>NARANJA AMARILLA</producto>
+    <empaque>CARTON</empaque>
+    <comentarios>PEDIDO 0021</comentarios>
+    <consec>21</consec>
+    <fecha>2021-06-29T10:39:00-05:00</fecha>
+  </VentaClienteProductos>
+</NewDataSet>
